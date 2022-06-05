@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Исходные файлы\5.1">
+      <UniqueIdentifier>{ba746042-ecc6-4033-a02c-ccef59ddfa35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\5.1">
+      <UniqueIdentifier>{bc2c43a0-3fac-4345-aa3d-ccb1c5643b1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\5.2">
+      <UniqueIdentifier>{c74cd1bd-87b4-4c47-b6de-e4891e18ed48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\5.2">
+      <UniqueIdentifier>{9fe5f565-59ec-4791-95a4-d0aa89a6300a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\5.3">
+      <UniqueIdentifier>{48f8d41a-4ee1-400c-b309-fdef0f0ffbec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\5.3">
+      <UniqueIdentifier>{9d5e842f-3e81-4415-b45e-8bf4238f8fce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\test">
+      <UniqueIdentifier>{1eb3f8dd-333f-49bc-bcaf-857805af605f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\test">
+      <UniqueIdentifier>{f95152ca-f6d2-45d8-a0a2-a978ac723dbe}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Person.h">
+      <Filter>Файлы заголовков\5.1</Filter>
+    </ClInclude>
+    <ClInclude Include="IO.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Post.h">
+      <Filter>Файлы заголовков\5.2</Filter>
+    </ClInclude>
+    <ClInclude Include="Product.h">
+      <Filter>Файлы заголовков\5.3</Filter>
+    </ClInclude>
+    <ClInclude Include="DiscountBase.h">
+      <Filter>Файлы заголовков\5.3</Filter>
+    </ClInclude>
+    <ClInclude Include="PercentDiscount.h">
+      <Filter>Файлы заголовков\5.3</Filter>
+    </ClInclude>
+    <ClInclude Include="CertificateDiscount.h">
+      <Filter>Файлы заголовков\5.3</Filter>
+    </ClInclude>
+    <ClInclude Include="DiscondIO.h">
+      <Filter>Файлы заголовков\5.3</Filter>
+    </ClInclude>
+    <ClInclude Include="DistanteCalculatorBase.h">
+      <Filter>Файлы заголовков\test</Filter>
+    </ClInclude>
+    <ClInclude Include="UniformDistanteCaluculator.h">
+      <Filter>Файлы заголовков\test</Filter>
+    </ClInclude>
+    <ClInclude Include="AcceleratedDistanceCalculator.h">
+      <Filter>Файлы заголовков\test</Filter>
+    </ClInclude>
+    <ClInclude Include="DistanteCalculatedIO.h">
+      <Filter>Файлы заголовков\test</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="lab5.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Person.cpp">
+      <Filter>Исходные файлы\5.1</Filter>
+    </ClCompile>
+    <ClCompile Include="IO.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Post.cpp">
+      <Filter>Исходные файлы\5.2</Filter>
+    </ClCompile>
+    <ClCompile Include="ProductRealization.cpp">
+      <Filter>Исходные файлы\5.3</Filter>
+    </ClCompile>
+    <ClCompile Include="DiscountBase.cpp">
+      <Filter>Исходные файлы\5.3</Filter>
+    </ClCompile>
+    <ClCompile Include="Product.cpp">
+      <Filter>Исходные файлы\5.3</Filter>
+    </ClCompile>
+    <ClCompile Include="PercentDiscount.cpp">
+      <Filter>Исходные файлы\5.3</Filter>
+    </ClCompile>
+    <ClCompile Include="CertificateDiscount.cpp">
+      <Filter>Исходные файлы\5.3</Filter>
+    </ClCompile>
+    <ClCompile Include="DistanteCalculatedBase.cpp">
+      <Filter>Исходные файлы\test</Filter>
+    </ClCompile>
+    <ClCompile Include="UniformDistanteCalculator.cpp">
+      <Filter>Исходные файлы\test</Filter>
+    </ClCompile>
+    <ClCompile Include="UniformDistanteCaluculator.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="AcceleratedDistanceCalculator.cpp">
+      <Filter>Исходные файлы\test</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
